@@ -9,6 +9,12 @@ public class LeapYear {
      */
     public static boolean isLeapYear(int year) {
         // Optional TODO: Fill in this method.
+        if (year % 4 == 0){
+            return true;
+        } else {
+            return false;
+        }
+
     }
 
     /** Calls isLeapYear to print correct statement. */
